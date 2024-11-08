@@ -141,8 +141,8 @@ export default function Home() {
     const variant = isCorrectAll ? "default" : "destructive"
     toast({
       variant,
-      title: <div className='font-bold'>Result of the answer</div>,
-      description: <div>{description}</div>,
+      title: "Result of the answer",
+      description,
       
     })
     setResultSubmit(isCorrectAll)
