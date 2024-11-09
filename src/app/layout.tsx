@@ -24,7 +24,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className='text-right pt-4 pr-4'>
+          <div className='fixed right-0 top-0 pt-4 pr-4'>
             <ModeToggle />
           </div>
           <main>
