@@ -1,7 +1,6 @@
-import mockQuestion from './mock-questions.json'
+import mockQuestion from './mock-question2'
+// import mockQuestion from './mock-questions.json'
 
 export async function GET() {
-  return new Response(JSON.stringify(mockQuestion), {
-    status: 200
-  })
+  return Response.json(mockQuestion)
 }

@@ -20,6 +20,7 @@ export type DragWordItem = {
 export type AnswersInput = {
   [key: string]: {
     answer: string,
+    dragItem?: DragWordItem,
     isCorrect?: boolean
   }
 }
